@@ -1,0 +1,152 @@
+
+/*@font-face {*/
+/*    font-family: "FreeSans";*/
+/*    src: url("FreeSans.otf");*/
+/*}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    background-color: #15202b;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.bg-principal {
+    color: #fff;
+    background-color: #15202b;
+}
+
+.bg-complement {
+    color: #fff;
+    background-color: #313d46;
+}
+
+tr:hover {
+    background-color: #15202b;
+}
+
+.tr-bottom-4 {
+    border-bottom: solid 4px #15202b; !important;
+}
+
+.left-bar-danger {
+    width: 5px; !important;
+    background-color: #eb6557; !important;
+}
+
+.bg-secundary {
+    color: #fff;
+    background-color: #313d46 !important;
+}
+
+.bg-gray {
+    color: #fff;
+    background-color: #707070;
+}
+
+.btn-principal {
+    color: #fff;
+    background-color: #37c5ab;
+    border-color: #37c5ab;
+}
+
+.btn-principal:hover {
+    color: #fff;
+    background-color: #2ca08b;
+    border-color: #2ca08b;
+}
+
+.frm-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.login-conter {
+    width: 375px;
+    background-color: #313d46;
+    border-radius: 6px;
+}
+
+.header-login {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.body-login {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.footer-login {
+    line-height: 70px;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+}
+
+.form-control-login {
+    line-height: 50px;
+    color: #fff;
+    background-color: #313d46;
+    border: none;
+    margin-bottom: 15px;
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control-login:hover {
+    background-color: #394651;
+    border: none;
+}
+
+.form-control-login:selection {
+    background-color: #394651;
+    border-color: #313d46;
+}
+
+
+.btn-login {
+    color: #fff;
+    background-color: #37c5ab;
+    border-color: #37c5ab;
+    width: 100%;
+    line-height: 35px;
+}
+
+.btn-login:hover {
+    color: #fff;
+    background-color: #2ca08c;
+    border-color: #2ca08c;
+    width: 100%;
+}
+
+.user-group {
+    float: right;
+    margin-right: -15px;
+}
+
+.circle-user {
+    width: 45px;
+    height: 45px;
+    background-color: #F7F7F7;
+    color: #313d46;
+    text-align: center;
+    line-height: 45px;
+    float: right;
+    border-radius: 50%;
+    margin-right: -15px;
+}
