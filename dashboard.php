@@ -26,8 +26,8 @@
     <!-- Sidebar  -->
     <nav id="sidebar">
         <div class="sidebar-header">
-            <h3>Bootstrap Sidebar</h3>
-            <strong>BS</strong>
+            <h3>Media Build</h3>
+            <strong>MB</strong>
         </div>
 
         <ul class="list-unstyled components">
@@ -76,6 +76,19 @@
                 </div>
             </div>
 
+        <div class="form-group my-3">
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-principal">
+                        <i class="fa fa-user"></i> Nuevo usuario
+                    </button>
+                    <button type="button" class="btn btn-actions">
+                        <i class="fa fa-"></i> Departamentos
+                    </button>
+                </div>
+            </div>
+        </div>
+
         <div class="mb-3   ">
             <table class="table bg-complement text-white table-responsive">
                 <tbody>
@@ -83,7 +96,7 @@
                     <td style="width:5px; background-color: #eb6557">
                     </td>
                     <td align="center" style="width: 65px;" class="align-middle">
-                        <img src="src/img/SPADESKTOP-01.png" class="rounded-circle" height="55" width="55" alt="">
+                        <img src="src/img/SPADESKTOP-01.png" class="rounded-circle thumbnail" height="55" width="55" alt="">
                     </td>
                     <td class="align-middle">
                         <span class="fw-bold">Derly Ociel Pacheco Fabela</span>  <br>
@@ -97,7 +110,7 @@
                     <td style="width:5px; background-color: #eb6557">
                     </td>
                     <td align="center" style="width: 65px;" class="align-middle">
-                        <img src="src/img/SPADESKTOP-01.png" class="rounded-circle" height="55" width="55" alt="">
+                        <img src="src/img/SPADESKTOP-01.png" class="rounded-circle thumbnail" height="55" width="55" alt="">
                     </td>
                     <td class="align-middle">
                         <span class="fw-bold">Derly Ociel Pacheco Fabela</span>  <br>
@@ -111,7 +124,7 @@
                     <td style="width:5px; background-color: #eb6557">
                     </td>
                     <td align="center" style="width: 65px;" class="align-middle">
-                        <img src="src/img/SPADESKTOP-01.png" class="rounded-circle" height="55" width="55" alt="">
+                        <img src="src/img/SPADESKTOP-01.png" class="rounded-circle thumbnail" height="55" width="55" alt="">
                     </td>
                     <td class="align-middle">
                         <span class="fw-bold">Derly Ociel Pacheco Fabela</span>  <br>
@@ -125,7 +138,7 @@
                     <td style="width:5px; background-color: #eb6557">
                     </td>
                     <td align="center" style="width: 65px;" class="align-middle">
-                        <img src="src/img/SPADESKTOP-01.png" class="rounded-circle" height="55" width="55" alt="">
+                        <img src="src/img/SPADESKTOP-01.png" class="rounded-circle thumbnail" height="55" width="55" alt="">
                     </td>
                     <td class="align-middle">
                         <span class="fw-bold">Derly Ociel Pacheco Fabela</span>  <br>
@@ -166,7 +179,7 @@
                     </td>
                     <td class="align-middle" style="width: 180px;">
                         <div class="row d-grid gap-2">
-                            <button class="btn p-1 d-md-block btn-success"> Activa </button>
+                            <button class="btn p-1 d-md-block btn-principal"> Activa </button>
                         </div>
                         <div>
                             <div class="row">
@@ -178,12 +191,12 @@
                     <td class="align-middle pe-4">
                         <div class="clearfix">
                             <div class="circle-user">+3</div>
-                            <img src="https://images.generated.photos/3tQ6Nv-_MuhLX0hAt7jNe63_4KFBCqcaHkXstcQwu6c/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAyMjM2MzMuanBn.jpg" class="img-thumbnail rounded-circle user-group" height="45" width="45" alt="">
-                            <img src="https://images.generated.photos/2t6xEuDj_DH2NLLItw9uF3wWkWwaoxYw6VdFL3KZNxc/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAzMzc5ODguanBn.jpg" class="img-thumbnail rounded-circle user-group" height="45" width="45" alt="">
-                            <img src="https://images.generated.photos/PbwhiOdRoy7YwBDGItg1nQCc5YdfKHLYf0lzqX-mF0s/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAyMjA2MDguanBn.jpg" class="img-thumbnail rounded-circle user-group" height="45" width="45" alt="">
-                            <img src="https://images.generated.photos/F6e1lHJCxNn_NEVj2E1GbI9N_1t39AoP1PrkYVjPe3E/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0OTUwNjkuanBn.jpg" class="img-thumbnail rounded-circle user-group" height="45" width="45" alt="">
-                            <img src="https://images.generated.photos/_3KAA0ZBKNZp72syYjcpEmiHJHtZJV9C5ZJB4XTpfNU/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0MzYxMTQuanBn.jpg" class="img-thumbnail rounded-circle user-group" height="45" width="45" alt="">
-                            <img src="src/img/SPADESKTOP-01.png" class="img-thumbnail rounded-circle user-group" height="45" width="45" alt="">
+                            <img src="https://images.generated.photos/3tQ6Nv-_MuhLX0hAt7jNe63_4KFBCqcaHkXstcQwu6c/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAyMjM2MzMuanBn.jpg" class="thumbnail rounded-circle user-group" height="45" width="45" alt="">
+                            <img src="https://images.generated.photos/2t6xEuDj_DH2NLLItw9uF3wWkWwaoxYw6VdFL3KZNxc/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAzMzc5ODguanBn.jpg" class="thumbnail rounded-circle user-group" height="45" width="45" alt="">
+                            <img src="https://images.generated.photos/PbwhiOdRoy7YwBDGItg1nQCc5YdfKHLYf0lzqX-mF0s/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAyMjA2MDguanBn.jpg" class="thumbnail rounded-circle user-group" height="45" width="45" alt="">
+                            <img src="https://images.generated.photos/F6e1lHJCxNn_NEVj2E1GbI9N_1t39AoP1PrkYVjPe3E/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0OTUwNjkuanBn.jpg" class="thumbnail rounded-circle user-group" height="45" width="45" alt="">
+                            <img src="https://images.generated.photos/_3KAA0ZBKNZp72syYjcpEmiHJHtZJV9C5ZJB4XTpfNU/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0MzYxMTQuanBn.jpg" class="thumbnail rounded-circle user-group" height="45" width="45" alt="">
+                            <img src="src/img/SPADESKTOP-01.png" class="thumbnail rounded-circle user-group" height="45" width="45" alt="">
                         </div>
                     </td>
                 </tr>
@@ -197,7 +210,7 @@
                     </td>
                     <td class="align-middle" style="width: 180px;">
                         <div class="row d-grid gap-2">
-                            <button class="btn p-1 d-md-block btn-success"> Activa </button>
+                            <button class="btn p-1 d-md-block btn-principal"> Activa </button>
                         </div>
                         <div>
                             <div class="row">
@@ -209,12 +222,12 @@
                     <td class="align-middle pe-4">
                         <div class="clearfix">
                             <div class="circle-user">+3</div>
-                            <img src="https://images.generated.photos/3tQ6Nv-_MuhLX0hAt7jNe63_4KFBCqcaHkXstcQwu6c/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAyMjM2MzMuanBn.jpg" class="img-thumbnail rounded-circle user-group" height="45" width="45" alt="">
-                            <img src="https://images.generated.photos/2t6xEuDj_DH2NLLItw9uF3wWkWwaoxYw6VdFL3KZNxc/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAzMzc5ODguanBn.jpg" class="img-thumbnail rounded-circle user-group" height="45" width="45" alt="">
-                            <img src="https://images.generated.photos/PbwhiOdRoy7YwBDGItg1nQCc5YdfKHLYf0lzqX-mF0s/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAyMjA2MDguanBn.jpg" class="img-thumbnail rounded-circle user-group" height="45" width="45" alt="">
-                            <img src="https://images.generated.photos/F6e1lHJCxNn_NEVj2E1GbI9N_1t39AoP1PrkYVjPe3E/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0OTUwNjkuanBn.jpg" class="img-thumbnail rounded-circle user-group" height="45" width="45" alt="">
-                            <img src="https://images.generated.photos/_3KAA0ZBKNZp72syYjcpEmiHJHtZJV9C5ZJB4XTpfNU/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0MzYxMTQuanBn.jpg" class="img-thumbnail rounded-circle user-group" height="45" width="45" alt="">
-                            <img src="src/img/SPADESKTOP-01.png" class="img-thumbnail rounded-circle user-group" height="45" width="45" alt="">
+                            <img src="https://images.generated.photos/3tQ6Nv-_MuhLX0hAt7jNe63_4KFBCqcaHkXstcQwu6c/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAyMjM2MzMuanBn.jpg" class="thumbnail rounded-circle user-group" height="45" width="45" alt="">
+                            <img src="https://images.generated.photos/2t6xEuDj_DH2NLLItw9uF3wWkWwaoxYw6VdFL3KZNxc/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAzMzc5ODguanBn.jpg" class="thumbnail rounded-circle user-group" height="45" width="45" alt="">
+                            <img src="https://images.generated.photos/PbwhiOdRoy7YwBDGItg1nQCc5YdfKHLYf0lzqX-mF0s/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAyMjA2MDguanBn.jpg" class="thumbnail rounded-circle user-group" height="45" width="45" alt="">
+                            <img src="https://images.generated.photos/F6e1lHJCxNn_NEVj2E1GbI9N_1t39AoP1PrkYVjPe3E/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0OTUwNjkuanBn.jpg" class="thumbnail rounded-circle user-group" height="45" width="45" alt="">
+                            <img src="https://images.generated.photos/_3KAA0ZBKNZp72syYjcpEmiHJHtZJV9C5ZJB4XTpfNU/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0MzYxMTQuanBn.jpg" class="thumbnail rounded-circle user-group" height="45" width="45" alt="">
+                            <img src="src/img/SPADESKTOP-01.png" class="thumbnail rounded-circle user-group" height="45" width="45" alt="">
                         </div>
                     </td>
                 </tr>
@@ -228,7 +241,7 @@
                     </td>
                     <td class="align-middle" style="width: 180px;">
                         <div class="row d-grid gap-2">
-                            <button class="btn p-1 d-md-block btn-success"> Activa </button>
+                            <button class="btn p-1 d-md-block btn-principal"> Activa </button>
                         </div>
                         <div>
                             <div class="row">
@@ -239,9 +252,9 @@
                     </td>
                     <td class="align-middle pe-4">
                         <div class="clearfix">
-                            <img src="https://images.generated.photos/3tQ6Nv-_MuhLX0hAt7jNe63_4KFBCqcaHkXstcQwu6c/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAyMjM2MzMuanBn.jpg" class="img-thumbnail rounded-circle user-group" height="45" width="45" alt="">
-                            <img src="https://images.generated.photos/_3KAA0ZBKNZp72syYjcpEmiHJHtZJV9C5ZJB4XTpfNU/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0MzYxMTQuanBn.jpg" class="img-thumbnail rounded-circle user-group" height="45" width="45" alt="">
-                            <img src="src/img/SPADESKTOP-01.png" class="img-thumbnail rounded-circle user-group" height="45" width="45" alt="">
+                            <img src="https://images.generated.photos/3tQ6Nv-_MuhLX0hAt7jNe63_4KFBCqcaHkXstcQwu6c/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAyMjM2MzMuanBn.jpg" class="thumbnail rounded-circle user-group" height="45" width="45" alt="">
+                            <img src="https://images.generated.photos/_3KAA0ZBKNZp72syYjcpEmiHJHtZJV9C5ZJB4XTpfNU/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0MzYxMTQuanBn.jpg" class="thumbnail rounded-circle user-group" height="45" width="45" alt="">
+                            <img src="src/img/SPADESKTOP-01.png" class="thumbnail rounded-circle user-group" height="45" width="45" alt="">
                         </div>
                     </td>
                 </tr>
@@ -255,7 +268,7 @@
                     </td>
                     <td class="align-middle" style="width: 180px;">
                         <div class="row d-grid gap-2">
-                            <button class="btn p-1 d-md-block btn-success"> Activa </button>
+                            <button class="btn p-1 d-md-block btn-principal"> Activa </button>
                         </div>
                         <div>
                             <div class="row">
@@ -266,10 +279,10 @@
                     </td>
                     <td class="align-middle pe-4">
                         <div class="clearfix">
-                            <img src="https://images.generated.photos/3tQ6Nv-_MuhLX0hAt7jNe63_4KFBCqcaHkXstcQwu6c/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAyMjM2MzMuanBn.jpg" class="img-thumbnail rounded-circle user-group" height="45" width="45" alt="">
-                            <img src="https://images.generated.photos/2t6xEuDj_DH2NLLItw9uF3wWkWwaoxYw6VdFL3KZNxc/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAzMzc5ODguanBn.jpg" class="img-thumbnail rounded-circle user-group" height="45" width="45" alt="">
-                            <img src="https://images.generated.photos/F6e1lHJCxNn_NEVj2E1GbI9N_1t39AoP1PrkYVjPe3E/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0OTUwNjkuanBn.jpg" class="img-thumbnail rounded-circle user-group" height="45" width="45" alt="">
-                            <img src="https://images.generated.photos/_3KAA0ZBKNZp72syYjcpEmiHJHtZJV9C5ZJB4XTpfNU/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0MzYxMTQuanBn.jpg" class="img-thumbnail rounded-circle user-group" height="45" width="45" alt="">
+                            <img src="https://images.generated.photos/3tQ6Nv-_MuhLX0hAt7jNe63_4KFBCqcaHkXstcQwu6c/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAyMjM2MzMuanBn.jpg" class="thumbnail rounded-circle user-group" height="45" width="45" alt="">
+                            <img src="https://images.generated.photos/2t6xEuDj_DH2NLLItw9uF3wWkWwaoxYw6VdFL3KZNxc/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAzMzc5ODguanBn.jpg" class="thumbnail rounded-circle user-group" height="45" width="45" alt="">
+                            <img src="https://images.generated.photos/F6e1lHJCxNn_NEVj2E1GbI9N_1t39AoP1PrkYVjPe3E/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0OTUwNjkuanBn.jpg" class="thumbnail rounded-circle user-group" height="45" width="45" alt="">
+                            <img src="https://images.generated.photos/_3KAA0ZBKNZp72syYjcpEmiHJHtZJV9C5ZJB4XTpfNU/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0MzYxMTQuanBn.jpg" class="thumbnail rounded-circle user-group" height="45" width="45" alt="">
                         </div>
                     </td>
                 </tr>
@@ -278,12 +291,160 @@
             </table>
         </div>
 
-        <div class="mb-3 card card-body">
-            <h2>Lorem Ipsum Dolor</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-            <div class="line"></div>
+
+        <div class="form-group my-3">
+            <div class="row">
+                <div class="col-8">
+                    <h2 class="text-white align-content-sm-center">
+                        Servicios t&eacute;cnicos
+                    </h2>
+                </div>
+                <div class="col">
+                    <input name="" class="form-control" placeholder="Buscar servicio">
+                </div>
+            </div>
         </div>
+
+
+        <div class="mb-3   ">
+            <table class="table bg-complement text-white table-responsive">
+                <tbody>
+                <tr class="tr-bottom-4">
+                    <td style="width:5px; background-color: #37c5ab">
+                    </td>
+                    <td class="align-middle">
+                        <span class="">SML-15RTE4</span>  <br>
+                        <small class="fw-lighter">1 enero 2021</small>
+                    </td>
+                    <td class="align-middle">
+                        <span class="">Derly Ociel Pacheco Fabela</span>  <br>
+                        <small class="fw-lighter">DPO10101</small>
+                    </td>
+                    <td class="align-middle">
+                        <span class="">Instalaci&oacute;n y programaci&oacute;n de m&oacute;dulos nuevos</span>  <br>
+                        <small class="fw-lighter">HA-A-0101</small>
+                    </td>
+                    <td class="align-middle" style="width: 180px;">
+                        <div class=" d-grid gap-2">
+                            <button class="btn p-1 d-md-block btn-actions"> Ver servicio </button>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="tr-bottom-4">
+                    <td style="width:5px; background-color: #37c5ab">
+                    </td>
+                    <td class="align-middle">
+                        <span class="">SML-15RTE4</span>  <br>
+                        <small class="fw-lighter">1 enero 2021</small>
+                    </td>
+                    <td class="align-middle">
+                        <span class="">Derly Ociel Pacheco Fabela</span>  <br>
+                        <small class="fw-lighter">DPO10101</small>
+                    </td>
+                    <td class="align-middle">
+                        <span class="">Instalaci&oacute;n y programaci&oacute;n de m&oacute;dulos nuevos</span>  <br>
+                        <small class="fw-lighter">HA-A-0101</small>
+                    </td>
+                    <td class="align-middle" style="width: 180px;">
+                        <div class=" d-grid gap-2">
+                            <button class="btn p-1 d-md-block btn-actions"> Ver servicio </button>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="tr-bottom-4">
+                    <td style="width:5px; background-color: #37c5ab">
+                    </td>
+                    <td class="align-middle">
+                        <span class="">SML-15RTE4</span>  <br>
+                        <small class="fw-lighter">1 enero 2021</small>
+                    </td>
+                    <td class="align-middle">
+                        <span class="">Derly Ociel Pacheco Fabela</span>  <br>
+                        <small class="fw-lighter">DPO10101</small>
+                    </td>
+                    <td class="align-middle">
+                        <span class="">Instalaci&oacute;n y programaci&oacute;n de m&oacute;dulos nuevos</span>  <br>
+                        <small class="fw-lighter">HA-A-0101</small>
+                    </td>
+                    <td class="align-middle" style="width: 180px;">
+                        <div class=" d-grid gap-2">
+                            <button class="btn p-1 d-md-block btn-warning"> Ver servicio </button>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="tr-bottom-4">
+                    <td style="width:5px; background-color: #37c5ab">
+                    </td>
+                    <td class="align-middle">
+                        <span class="">SML-15RTE4</span>  <br>
+                        <small class="fw-lighter">1 enero 2021</small>
+                    </td>
+                    <td class="align-middle">
+                        <span class="">Derly Ociel Pacheco Fabela</span>  <br>
+                        <small class="fw-lighter">DPO10101</small>
+                    </td>
+                    <td class="align-middle">
+                        <span class="">Instalaci&oacute;n y programaci&oacute;n de m&oacute;dulos nuevos</span>  <br>
+                        <small class="fw-lighter">HA-A-0101</small>
+                    </td>
+                    <td class="align-middle" style="width: 180px;">
+                        <div class=" d-grid gap-2">
+                            <button class="btn p-1 d-md-block btn-warning"> Ver servicio </button>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="tr-bottom-4">
+                    <td style="width:5px; background-color: #37c5ab">
+                    </td>
+                    <td class="align-middle">
+                        <span class="">SML-15RTE4</span>  <br>
+                        <small class="fw-lighter">1 enero 2021</small>
+                    </td>
+                    <td class="align-middle">
+                        <span class="">Derly Ociel Pacheco Fabela</span>  <br>
+                        <small class="fw-lighter">DPO10101</small>
+                    </td>
+                    <td class="align-middle">
+                        <span class="">Instalaci&oacute;n y programaci&oacute;n de m&oacute;dulos nuevos</span>  <br>
+                        <small class="fw-lighter">HA-A-0101</small>
+                    </td>
+                    <td class="align-middle" style="width: 180px;">
+                        <div class=" d-grid gap-2">
+                            <button class="btn p-1 d-md-block btn-principal"> Ver servicio </button>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="tr-bottom-4">
+                    <td style="width:5px; background-color: #37c5ab">
+                    </td>
+                    <td class="align-middle">
+                        <span class="">SML-15RTE4</span>  <br>
+                        <small class="fw-lighter">1 enero 2021</small>
+                    </td>
+                    <td class="align-middle">
+                        <span class="">Derly Ociel Pacheco Fabela</span>  <br>
+                        <small class="fw-lighter">DPO10101</small>
+                    </td>
+                    <td class="align-middle">
+                        <span class="">Instalaci&oacute;n y programaci&oacute;n de m&oacute;dulos nuevos</span>  <br>
+                        <small class="fw-lighter">HA-A-0101</small>
+                    </td>
+                    <td class="align-middle" style="width: 180px;">
+                        <div class=" d-grid gap-2">
+                            <button class="btn p-1 d-md-block btn-warning"> Ver servicio </button>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
 
     </div>
 </div>

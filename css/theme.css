@@ -44,14 +44,26 @@ tr:hover {
     background-color: #707070;
 }
 
+.btn-actions {
+    color: #f7f7f7;
+    background-color: #1da1f2;
+    border-color: #1786ca;
+}
+
+.btn-actions:hover {
+    color: #f7f7f7;
+    background-color: #177dbc;
+    border-color: #116192;
+}
+
 .btn-principal {
-    color: #fff;
+    color: #f7f7f7;
     background-color: #37c5ab;
     border-color: #37c5ab;
 }
 
 .btn-principal:hover {
-    color: #fff;
+    color: #f7f7f7;
     background-color: #2ca08b;
     border-color: #2ca08b;
 }
@@ -149,4 +161,8 @@ tr:hover {
     float: right;
     border-radius: 50%;
     margin-right: -15px;
+}
+
+.thumbnail {
+    border: solid 3px #f7f7f7;
 }
