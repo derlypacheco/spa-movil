@@ -4,11 +4,14 @@
 /*    src: url("FreeSans.otf");*/
 /*}*/
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
 body {
     background-color: #15202b;
-    font-family: 'Roboto Condensed', sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
 }
 
 .bg-principal {
@@ -26,12 +29,12 @@ tr:hover {
 }
 
 .tr-bottom-4 {
-    border-bottom: solid 4px #15202b; !important;
+    border-bottom: solid 4px #15202b !important;
 }
 
 .left-bar-danger {
-    width: 5px; !important;
-    background-color: #eb6557; !important;
+    width: 5px !important;
+    background-color: #eb6557 !important;
 }
 
 .bg-secundary {
@@ -165,4 +168,9 @@ tr:hover {
 
 .thumbnail {
     border: solid 3px #f7f7f7;
+}
+
+.dropdown-right {
+    float: right;
+    margin-right: 10px;
 }
