@@ -60,20 +60,23 @@
                     <i class="fas text-white fa-align-left"></i>
                 </button>
                 <div class="dropdown">
-                <div class="btn bg-complement rounded-circle " id="btnToast"> 
-                    <i class="fa text-white fa-bell"></i>
-                </div>
+
+                    <div class="circle">
+                        <i class="fa fa-bell"></i>
+                        <span class="fw-bold">+9</span>
+                    </div>
+
                     <a href="" class="" data-toggle="dropdown" aria-expanded="false">
                         <img src="src/img/SPADESKTOP-01.png" class="thumbnail rounded-circle" width="40">
-                        <span class="my-1">Derly Ociel Pacheco Fabela</span>
+                        <span class="mx-2">Derly Ociel Pacheco Fabela</span>
                         <i class="fas fa-caret-down"></i>
                     </a>
-                        <ul class="dropdown-menu p-3 dropdown-right bg-complement">
-                            <li class="p-2"><a href="#"> <i class="pe-2 fa fa-user"></i> Mis datos</a></li>
-                            <li class="p-2"><a href="#"> <i class="pe-2 fa fa-cog"></i>Preferencias</a></li>
-                            <hr>
-                            <li class="p-2"><a href="#"> <i class="pe-2 fa fa-sign-out-alt"></i> Salir</a></li>
-                        </ul>
+                    <ul class="dropdown-menu p-3 dropdown-right bg-complement">
+                        <li class="p-2"><a href="#"> <i class="pe-2 fa fa-user"></i> Mis datos</a></li>
+                        <li class="p-2"><a href="#"> <i class="pe-2 fa fa-cog"></i>Preferencias</a></li>
+                        <hr>
+                        <li class="p-2"><a href="#"> <i class="pe-2 fa fa-sign-out-alt"></i> Salir</a></li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -112,7 +115,7 @@
 </div>
 
 <!-- jQuery CDN - Slim version (=without AJAX) -->
-<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <!-- Popper.JS -->
 <script src="js/popper.min.js"></script>
 <!-- Bootstrap JS -->

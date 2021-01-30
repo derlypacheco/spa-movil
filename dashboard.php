@@ -1,79 +1,26 @@
-<!DOCTYPE html>
+<?php
+session_start();
+if ($_SESSION['fullname'] == '') { header('location:./'); }
+?><!DOCTYPE html>
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<!--    <meta http-equiv="Refresh" content=5>-->
-    <title>Dashboard MX</title>
-
-    <!-- Bootstrap CSS CDN -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/theme.css">
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
-
- </head>
+    <?php include_once 'class/includes/head.php'; ?>
+</head>
 
 <body>
-
-
 
 <div class="wrapper">
     <!-- Sidebar  -->
     <nav id="sidebar">
-        <div class="sidebar-header">
-            <h3>Media Build</h3>
-            <strong>MB</strong>
-        </div>
-
-        <ul class="list-unstyled components">
-            <li class="active">
-                <a href="#" >
-                    <i class="fas fa-user"></i>
-                    Usuarios
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fas fa-tasks"></i>
-                    Task
-                </a>
-                <a href="#" >
-                    <i class="fas fa-tools"></i>
-                    Servicios
-                </a>
-            </li>
-        </ul>
+        <?php include_once 'class/includes/sidebar.php'; ?>
 
     </nav>
 
     <!-- Page Content  -->
     <div id="content">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-principal">
-            <div class="container-fluid">
-                <button type="button" id="sidebarCollapse" class="btn btn-default">
-                    <i class="fas text-white fa-align-left"></i>
-                </button>
-                <div class="dropdown">
-                    <a href="" class="" data-toggle="dropdown" aria-expanded="false">
-                        <img src="src/img/SPADESKTOP-01.png" class="thumbnail rounded-circle" width="40">
-                        <span class="my-1">Derly Ociel Pacheco Fabela</span>
-                        <i class="fas fa-caret-down"></i>
-                    </a>
-                        <ul class="dropdown-menu p-3 dropdown-right bg-complement">
-                            <li class="p-2"><a href="#"> <i class="pe-2 fa fa-user"></i> Mis datos</a></li>
-                            <li class="p-2"><a href="#"> <i class="pe-2 fa fa-cog"></i>Preferencias</a></li>
-                            <hr>
-                            <li class="p-2"><a href="#"> <i class="pe-2 fa fa-sign-out-alt"></i> Salir</a></li>
-                        </ul>
-                </div>
-            </div>
-        </nav>
+        <?php include_once 'class/includes/nav.php'; ?>
 
         <div class="form-group my-3">
             <div class="row">
@@ -461,20 +408,7 @@
     </div>
 </div>
 
-<!-- jQuery CDN - Slim version (=without AJAX) -->
-<script src="js/jquery-3.3.1.slim.min.js"></script>
-<!-- Popper.JS -->
-<script src="js/popper.min.js"></script>
-<!-- Bootstrap JS -->
-<script src="js/bootstrap.min.js"></script>
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('#sidebarCollapse').on('click', function () {
-            $('#sidebar').toggleClass('active');
-        });
-    });
-</script>
+<?php include_once 'class/includes/scripts.php'; ?>
 
 </body>
 

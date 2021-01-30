@@ -2,3 +2,5 @@ Options +FollowSymLinks
 RewriteEngine on
 
 RewriteRule ^home dashboard.php
+RewriteRule ^access-login class/login.php
+RewriteRule ^LogOut class/exit_app.php

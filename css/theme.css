@@ -166,6 +166,31 @@ tr:hover {
     margin-right: -15px;
 }
 
+.circle {
+    width: 45px;
+    height: 45px;
+    background-color: #313d46;
+    color: #F7F7F7;
+    text-align: center;
+    line-height: 45px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.circle span {
+    color: #15202b;
+    position: absolute;
+    font-size: 12px;
+    border-radius: 50px;
+    background-color: #ffb036;
+    height: 23px;
+    width: 23px;
+    line-height: 20px;
+    padding: 2px;
+}
+
 .thumbnail {
     border: solid 3px #f7f7f7;
 }

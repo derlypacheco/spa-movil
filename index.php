@@ -1,4 +1,7 @@
-<!doctype html>
+<?php
+session_start();
+if (isset($_SESSION['fullname']) != '') { header('location:home'); }
+?><!doctype html>
 <html lang="en">
 <head>
     <!-- Required meta tags -->
@@ -23,12 +26,12 @@
                 <div class="body-login">
                     <form method="post" id="frmLogin">
                         <div class="form-group">
-                            <input type="text" placeholder="USUARIO" class="form-control-login">
+                            <input type="text" name="txtUser" placeholder="USUARIO" autofocus required maxlength="45" class="form-control-login">
                         </div>
                         <div class="form-group">
-                            <input placeholder="CONTRASE&Ntilde;A" type="password" class="form-control-login">
+                            <input type="password" name="txtPass" placeholder="CONTRASE&Ntilde;A" required class="form-control-login">
                         </div>
-                        <button type="button" class="btn btn-login">
+                        <button type="submit" id="idBtnLogin" class="btn btn-login">
                             Entrar
                         </button>
                     </form>
@@ -39,6 +42,28 @@
             </div>
         </div>
 
+        <!-- jQuery CDN - Slim version (=without AJAX) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+        <script>
+            $('#frmLogin').submit(function (e){
+                e.preventDefault();
+                $('#idBtnLogin').attr('disabled', true);
+                $.ajax({
+                    type: 'POST',
+                    url: 'access-login',
+                    data: new FormData($('#frmLogin')[0]),
+                    processData: false,
+                    contentType: false
+                }).done(function(event) {
+                    if (event == 1)
+                    {
+                        location.href = 'home';
+                    }
+                    $('#idBtnLogin').attr('disabled', false);
+                });
+            });
+        </script>
 
     </div>
 
