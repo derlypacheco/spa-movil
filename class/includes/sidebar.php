@@ -6,10 +6,19 @@
 <ul class="list-unstyled components">
 
     <?php if($_SESSION['user_v'] == '1') : ?>
-    <li class="active">
+    <li class="">
         <a href="#" >
             <i class="fas fa-user"></i>
             Usuarios
+        </a>
+    </li>
+    <?php endif; ?>
+
+    <?php if($_SESSION['client_v'] == '1') : ?>
+    <li class="">
+        <a href="#" id="btn-clients">
+            <i class="fa fa-users"></i>
+            Clientes
         </a>
     </li>
     <?php endif; ?>

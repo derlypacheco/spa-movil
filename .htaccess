@@ -4,3 +4,9 @@ RewriteEngine on
 RewriteRule ^home dashboard.php
 RewriteRule ^access-login class/login.php
 RewriteRule ^LogOut class/exit_app.php
+RewriteRule ^ListClients views/layouts/clients/list_clients.php
+RewriteRule ^modal-add-client views/layouts/clients/modal_add_client.php
+RewriteRule ^add-client views/layouts/clients/add_client.php
+RewriteRule ^delete-client/(.*)$ views/layouts/clients/delete_client.php?id=$1
+RewriteRule ^modal-edit-client/(.*)$ views/layouts/clients/modal_edit_client.php?id=$1
+RewriteRule ^edit-client views/layouts/clients/edit_client.php
