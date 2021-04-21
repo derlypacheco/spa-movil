@@ -3,7 +3,14 @@ session_start();
 if ($_SESSION['client_v'] == '1') {
     include_once  '../../../class/Config.php';
     $config = new Config();
-    $listClients = $config->ListArray("select * from global_customers where activo = '1' ");
+    $filtro = " where activo = '1' and id_company = '".$_SESSION['company']."' ";
+    if ($_POST['busq'] != '') {
+        $filtro = " where activo = '1' and id_company = '".$_SESSION['company']."' ";
+        $filtro .= " and like ( nombre like '%".addslashes($_POST['busq'])."%' ) ";
+        $filtro .= " or celular like '%".addslashes($_POST['busq'])."%' ";
+        $filtro .= " or direccion like '%".addslashes($_POST['busq'])."%' ";
+    }
+    $listClients = $config->ListArray("select * from global_customers $filtro ");
     ?>
 
     <div class="form-group my-3">
@@ -14,17 +21,18 @@ if ($_SESSION['client_v'] == '1') {
                 </h2>
             </div>
             <div class="col">
-                <input name="" class="form-control" placeholder="Buscar cliente">
+                <input id="box-costumer" class="form-control" placeholder="Buscar cliente">
             </div>
         </div>
     </div>
+
 
     <div class="form-group my-3">
         <div class="row">
             <div class="col">
                 <?php if($_SESSION['client_c'] == '1'): ?>
                 <button type="button" class="btn btn-principal" id="btn-add-costumer">
-                    <i class="fa fa-user"></i> Nuevo cliente
+                    Nuevo cliente
                 </button>
                 <?php endif; ?>
             </div>
@@ -50,17 +58,26 @@ if ($_SESSION['client_v'] == '1') {
                     <td class="align-middle"><?php echo $rows['celular']; ?></td>
                     <td class="align-middle" style="width: 210px;">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-4">
+                                <div class=" d-grid gap-2">
+                                    <?php if ($_SESSION['acc_v'] == '1') : ?>
+                                    <button class="btn d-block btn-warning" onclick="account('<?php echo $rows['id_cliente']; ?>')" id="btn-account-<?php echo $rows['id_cliente']; ?>">
+                                        <i class="fa fa-file-invoice"></i>
+                                    </button>
+                                    <?php endif; ?>
+                                </div>
+                            </div>
+                            <div class="col-4">
                                 <div class="d-grid gap-2">
                                     <button class="btn btn-principal d-block" onclick="view_costumer('<?php echo $rows['id_cliente']; ?>')" id="btn-view-costumer-<?php echo $rows['id_cliente']; ?>">
-                                        Ver
+                                        <i class="fa fa-user-edit"></i>
                                     </button>
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-4">
                                 <div class="d-grid gap-2">
                                     <button class="btn d-block btn-danger" onclick="delete_costumer('<?php echo $rows['id_cliente']; ?>')" id="btn-delete-costumer-<?php echo $rows['id_cliente']; ?>">
-                                        Eliminar
+                                        <i class="fa fa-times-circle"></i>
                                     </button>
                                 </div>
                             </div>
@@ -87,5 +104,8 @@ if ($_SESSION['client_v'] == '1') {
             });
 
         </script>
+
+
+
 
 <?php } ?>

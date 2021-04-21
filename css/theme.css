@@ -37,6 +37,10 @@ tr:hover {
     background-color: #eb6557 !important;
 }
 
+.bg-success {
+    background-color: #37c5ab im !important;
+}
+
 .bg-secundary {
     color: #fff;
     background-color: #313d46 !important;
@@ -198,4 +202,8 @@ tr:hover {
 .dropdown-right {
     float: right;
     margin-right: 10px;
+}
+
+.pointer {
+    cursor: pointer;
 }

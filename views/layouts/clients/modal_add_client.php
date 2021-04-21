@@ -59,8 +59,10 @@ if ($_SESSION['client_c'] == '1') {
                             </div>
                         </div>
 
-                        <div id="result">
+                        <div class="row form-group text-center">
+                            <div id="result">
 
+                            </div>
                         </div>
 
                     </form>
@@ -86,7 +88,7 @@ if ($_SESSION['client_c'] == '1') {
                    $('#frmAddCostumer')[0].reset();
                    ListCostumers();
                } else {
-                    $('#result').addClass("row form-group text-center alert alert-danger m-2");
+                    $('#result').addClass(" alert alert-danger mx-2");
                     $('#result').html(rest);
                }
            });

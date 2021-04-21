@@ -54,6 +54,7 @@ if ($_SESSION['client_v'] == '1') {
 
                         <div class="row form-group">
                             <div class="col-12 d-grid gap-2">
+                                <input type="hidden" name="id" value="<?php echo $row['id_cliente']; ?>">
                                 <button type="submit" id="btn-submit-client" class="btn d-md-block my-2 btn-principal">
                                     modificar cliente
                                 </button>
@@ -76,10 +77,11 @@ if ($_SESSION['client_v'] == '1') {
                            data: new FormData($('#frmEditCostumer')[0]),
                            processData: false,
                            contentType: false
-                       }),done(function (rest){
+                       }).done(function (rest){
                            if (rest == 'ok') {
-                               $('#frmEditCostumer')[0].reset();
                                ListCostumers();
+                               $('#result').addClass('row form-group text-center alert bg-success m-2');
+                               $('#result').html('Se ha modificado correctamente el cliente');
                            } else {
                                $('#result').addClass('row form-group text-center alert alert-danger m-2');
                                $('#result').html(rest);

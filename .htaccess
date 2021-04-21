@@ -4,9 +4,33 @@ RewriteEngine on
 RewriteRule ^home dashboard.php
 RewriteRule ^access-login class/login.php
 RewriteRule ^LogOut class/exit_app.php
+RewriteRule ^datos-user class/includes/modal_info_user.php
+RewriteRule ^update-info-user class/update_info_user.php
+
+## Clientes
 RewriteRule ^ListClients views/layouts/clients/list_clients.php
 RewriteRule ^modal-add-client views/layouts/clients/modal_add_client.php
 RewriteRule ^add-client views/layouts/clients/add_client.php
 RewriteRule ^delete-client/(.*)$ views/layouts/clients/delete_client.php?id=$1
 RewriteRule ^modal-edit-client/(.*)$ views/layouts/clients/modal_edit_client.php?id=$1
 RewriteRule ^edit-client views/layouts/clients/edit_client.php
+
+## Articulos
+RewriteRule ^list-articles views/layouts/articles/list_items.php
+RewriteRule ^modal-add-article views/layouts/articles/modal_add_article.php
+RewriteRule ^add-article views/layouts/articles/add_article.php
+RewriteRule ^modal-edit-article/(.*)$ views/layouts/articles/modal_edit_atricle.php?id=$1
+RewriteRule ^edit-article views/layouts/articles/edit_article.php
+RewriteRule ^delete-article views/layouts/articles/delete_article.php
+
+## Acounts
+RewriteRule ^the-account/(.*)$ views/layouts/accounts/list_acount_user.php?id=$1
+RewriteRule ^modal-add-account/(.*)$ views/layouts/accounts/modal_add_account.php?id=$1
+RewriteRule ^add-acount views/layouts/accounts/add_account.php
+RewriteRule ^modal-add-payment/(.*)$ views/layouts/accounts/modal_add_payment.php?id=$1
+RewriteRule ^add-payment views/layouts/accounts/add_payment_costumer.php
+RewriteRule ^payment-costumer/(.*)$ views/layouts/accounts/list_payment_costumer.php?id=$1
+RewriteRule ^delete-payment-costumer/(.*)$ views/layouts/accounts/delete_payment_costumer.php?id=$1
+RewriteRule ^account-costumer/(.*)$ views/layouts/accounts/list_accounts_costumer.php?id=$1
+RewriteRule ^delete-account-costumer/(.*)$ views/layouts/accounts/delete_account_costumer.php?id=$1
+RewriteRule ^get_cost_item/(.*)$ views/layouts/accounts/get_item_cost.php?id=$1
